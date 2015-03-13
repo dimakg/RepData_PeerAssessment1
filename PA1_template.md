@@ -16,6 +16,9 @@ The data set is comma-separated-value (CSV) that was stored in "activity.csv" in
 The total number of observations(rows) is 17568.
 
 
+The data was downloaded from https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip. Placed into the working directory and unzipped.
+
+
 
 #Data loading and preprocessing
 
@@ -52,20 +55,6 @@ The code below will check if they are installed and if not it will download the 
         library(ggplot2)
         library(reshape2)
         require(dplyr)
-```
-
-```
-## Loading required package: dplyr
-## 
-## Attaching package: 'dplyr'
-## 
-## The following object is masked from 'package:stats':
-## 
-##     filter
-## 
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
 ```
 
 
@@ -292,7 +281,7 @@ The total number of steps for days that had missing values now looks like this:
 ```
 
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Thu Mar 12 12:08:58 2015 -->
+<!-- Fri Mar 13 16:29:33 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> date </th> <th> totalValue </th>  </tr>
   <tr> <td align="right"> 1 </td> <td> 2012-10-01 </td> <td align="right"> 10766.19 </td> </tr>
@@ -366,7 +355,7 @@ On weekends on the other hand this person wakes up mostly at 7:30-8:00. Yes ther
 ```
 
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
-<!-- Thu Mar 12 12:08:58 2015 -->
+<!-- Fri Mar 13 16:29:34 2015 -->
 <table border=1>
 <tr> <th>  </th> <th> Day_Type </th> <th> Average_Steps_Total </th>  </tr>
   <tr> <td align="right"> 1 </td> <td> weekdays </td> <td align="right"> 10255.85 </td> </tr>

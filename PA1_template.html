@@ -219,6 +219,8 @@ The data was collected by the activity monitoring device at five minutes interva
 
 <p>The total number of observations(rows) is 17568.</p>
 
+<p>The data was downloaded from <a href="https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip">https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip</a>. Placed into the working directory and unzipped.</p>
+
 <p>#Data loading and preprocessing</p>
 
 <p>For the code in this .Rmd file to work properly, this are the needed external libraries: &ldquo;xtable&rdquo;,&ldquo;dplyr&rdquo;,&ldquo;ggplot2&rdquo;,&ldquo;reshape2&rdquo;.</p>
@@ -251,19 +253,6 @@ The data was collected by the activity monitoring device at five minutes interva
         library(ggplot2)
         library(reshape2)
         require(dplyr)
-</code></pre>
-
-<pre><code>## Loading required package: dplyr
-## 
-## Attaching package: &#39;dplyr&#39;
-## 
-## The following object is masked from &#39;package:stats&#39;:
-## 
-##     filter
-## 
-## The following objects are masked from &#39;package:base&#39;:
-## 
-##     intersect, setdiff, setequal, union
 </code></pre>
 
 <p>The columns of the data set are of types integer, factor and integer:</p>
@@ -448,7 +437,7 @@ The average daily activity pattern plot (excluding NA values) below shows the av
 
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
 
-<!-- Thu Mar 12 12:08:58 2015 -->
+<!-- Fri Mar 13 16:29:33 2015 -->
 
 <table border=1>
 <tr> <th>  </th> <th> date </th> <th> totalValue </th>  </tr>
@@ -515,7 +504,7 @@ The average daily activity pattern plot (excluding NA values) below shows the av
 
 <!-- html table generated in R 3.1.2 by xtable 1.7-4 package -->
 
-<!-- Thu Mar 12 12:08:58 2015 -->
+<!-- Fri Mar 13 16:29:34 2015 -->
 
 <table border=1>
 <tr> <th>  </th> <th> Day_Type </th> <th> Average_Steps_Total </th>  </tr>

@@ -16,6 +16,9 @@ The data set is comma-separated-value (CSV) that was stored in "activity.csv" in
 The total number of observations(rows) is 17568.
 
 
+The data was downloaded from https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip. Placed into the working directory and unzipped.
+
+
 
 #Data loading and preprocessing
 
